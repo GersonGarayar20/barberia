@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display, Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-export const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 const poppins = Poppins({ weight: ["100", "500"], subsets: ["latin"] });
 
 export const metadata: Metadata = {

@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import { playfairDisplay } from "./layout";
 import Image from "next/image";
-import SliderHover from "./components/sliderHover";
 
 export default function Home() {
   return (
@@ -46,7 +44,7 @@ export default function Home() {
               </span>
               <h1
                 className={
-                  playfairDisplay.className +
+                  
                   " text-white text-5xl leading-[4rem] mb-8"
                 }
               >
